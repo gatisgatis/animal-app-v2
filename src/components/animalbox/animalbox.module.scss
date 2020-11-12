@@ -1,0 +1,52 @@
+.animalbox {
+    background-color: rgb(230, 210, 210);
+    display: flex;
+    align-items: flex-end;
+    min-height: 80px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    justify-content: space-around; 
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.type {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    z-index: 3;
+}
+
+.checkbox {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    margin-left: 5px;
+    z-index: 3;
+    margin-bottom: 6%;
+    color: black;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}

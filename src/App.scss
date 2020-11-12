@@ -1,0 +1,55 @@
+.button--add-animal{
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(30, 70, 12);
+    background-color: rgba(133, 184, 51, 1);
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.button--add-animal:hover {
+    background-color: rgba(133, 184, 51, 0.5);
+}
+
+.app-title {
+    font-size: 60px;
+    color: rgb(32, 36, 29);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px 40px;
+}
+
+.app-instruction {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    color: rgb(29, 26, 26);
+}
+
+.fancy-app {
+    background-image: linear-gradient(rgb(187, 174, 174),rgb(68, 66, 66),rgb(59, 53, 53),rgb(192, 178, 178));
+    padding: 20px;
+    min-height: 2000px;
+}
+
+.app-logo {
+    width: 60%;
+    background-color: transparent;
+    &:hover {
+        animation-name: spiner;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    cursor: pointer;
+}
+
+@keyframes spiner {
+    0% {transform: rotate(0deg); }
+    100% {transform: rotate(360deg);}
+  }
+
